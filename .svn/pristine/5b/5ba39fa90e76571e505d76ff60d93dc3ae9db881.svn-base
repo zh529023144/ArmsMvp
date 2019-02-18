@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.xinghuo.component.module.MainActivity">
+
+    <!--<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bn_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="列表" />
+    <Button
+        android:id="@+id/bn_channel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="频道" />
+    <Button
+        android:id="@+id/bn_map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="地图" />
+    <Button
+        android:id="@+id/bn_case"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="案件" />
+    <Button
+        android:id="@+id/bn_mine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="我的" />-->
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabTextColor="#99ffffff"
+        app:tabSelectedTextColor="#ffffff"
+        android:background="@color/colorPrimary"
+        app:tabIndicatorColor="@android:color/white"
+        app:tabIndicatorHeight="1dp"
+        />
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+</LinearLayout>

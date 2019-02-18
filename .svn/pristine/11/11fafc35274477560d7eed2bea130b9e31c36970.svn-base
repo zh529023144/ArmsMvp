@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Component</string>
+    <string-array name="tabs">
+        <item>列表</item>
+        <item>频道</item>
+        <item>地图</item>
+        <item>案件</item>
+        <item>我的</item>
+    </string-array>
+</resources>

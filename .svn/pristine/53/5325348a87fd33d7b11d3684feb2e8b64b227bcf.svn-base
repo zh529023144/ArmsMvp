@@ -1,0 +1,1 @@
+include ':app', ':module_list', ':arms', ':module_channel', ':module_map', ':module_case', ':module_mine', ':commonlib'
